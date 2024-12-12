@@ -1,0 +1,18 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Jarak antar produk */
+    justify-content: center; /* Memusatkan produk ke tengah */
+  }
+  
+  .product-card {
+    flex: 1 1 20%; /* Setiap kartu produk memiliki lebar sekitar 20% */
+    max-width: 20%; /* Maksimal lebar tiap produk adalah 20% dari kontainer */
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  

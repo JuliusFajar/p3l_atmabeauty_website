@@ -1,0 +1,21 @@
+/* adminPageBackground.css */
+.app-layout {
+  position: relative;
+  min-height: 100vh;
+}
+
+.app-layout::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('../assets/images/adminPageBackground.jpg') center center / cover no-repeat;
+  filter: blur(5px); /* Ubah nilai blur sesuai keinginan Anda */
+  z-index: -1;
+  width: 100%; /* Menetapkan lebar gambar */
+  height: 100%; /* Menetapkan tinggi gambar */
+}
+
+/* Tambahan gaya CSS sesuai kebutuhan Anda */

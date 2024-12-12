@@ -1,0 +1,52 @@
+/* Table styling */
+.table-pembayaran {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+}
+
+.table-pembayaran th, .table-pembayaran td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table-pembayaran th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table-pembayaran tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-pembayaran tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.table-pembayaran td {
+    vertical-align: top;
+}
+
+.table-pembayaran ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.table-pembayaran ul li {
+    padding: 2px 0;
+}
+
+/* Styling for headings */
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+

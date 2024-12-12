@@ -1,0 +1,57 @@
+.laporan-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .filter-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .filter-container label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .perawatan-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .perawatan-table th,
+  .perawatan-table td {
+    border: 1px solid #ddd;
+    /* border: none; */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .perawatan-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .perawatan-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .perawatan-table tr:hover {
+    background-color: #e6f7ff;
+  }
+  
+  .print-btn-left {
+    float: left; /* Membuat tombol terletak di kiri */
+    margin-right: 10px; /* Menambahkan margin ke kanan agar tidak terlalu rapat */
+  }
+  
+  .tampilkan-btn{
+    float: left;
+  }
